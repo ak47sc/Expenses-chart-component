@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="flex-center">
+  <main>
+    <div class="balance-wrapper">
+      <h5>My balance</h5>
+      <h2>$921.48</h2>
+      <img src="images/logo.svg" alt="AK">
+    </div>
+
+    <div class="summary-wrapper flex-center">
+      <h2>Spending - Last 7 days</h2>
+      <div class="graph-wrapper flex-center">
+        <div class="graph"><p class="hidden"></p><p>mon</p></div>
+        <div class="graph"><p class="hidden"></p><p>tue</p></div>
+        <div class="graph"><p class="hidden"></p><p>wed</p></div>
+        <div class="graph"><p class="hidden"></p><p>thu</p></div>
+        <div class="graph"><p class="hidden"></p><p>fri</p></div>
+        <div class="graph"><p class="hidden"></p><p>sat</p></div>
+        <div class="graph"><p class="hidden"></p><p>sun</p></div>
+      </div>
+
+      <div class="total-card">
+        <div class="total">
+          <h5>Total this month</h5>
+          <h1>$478.33</h1>
+        </div>
+        <div class="difference">
+          <h5>+2.4%</h5>
+          <h5>from last month</h5>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ak47sc" target="_blank">Akash H</a>.
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
